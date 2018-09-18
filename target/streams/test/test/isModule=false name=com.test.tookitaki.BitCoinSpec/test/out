@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mBitCoinSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mBitcoin Trading[0m[0m
+[0m[[0minfo[0m] [0m[32m  .getBitCoinPrice[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return bit coin price[0m[0m
+[0m[[0minfo[0m] [0m[32m  .movingAverage[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should return bit coin moving average[0m[0m
+[0m[[0minfo[0m] [0m[32m  .trading[0m[0m
+[0m[[0minfo[0m] [0m[32m  - trading decisions[0m[0m
