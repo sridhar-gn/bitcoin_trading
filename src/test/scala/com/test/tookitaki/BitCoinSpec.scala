@@ -152,4 +152,6 @@ class BitCoinSpec extends AsyncFunSpec with AsyncMockFactory with Matchers
       }
     }
   }
+
+
 }
