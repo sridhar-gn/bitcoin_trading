@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99bf152d-a17c-467a-9bba-f3162f21d93a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala" />
-    </list>
+    <list default="true" id="99bf152d-a17c-467a-9bba-f3162f21d93a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -80,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitCoinServiceImpl.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BitCoinServiceImpl.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="116" column="32" lean-forward="false" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+            <state relative-caret-position="364">
+              <caret line="117" column="23" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
               <folding>
                 <element signature="e#36#61#0" expanded="true" />
               </folding>
@@ -125,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitCoinSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitCoinSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="155" column="2" lean-forward="false" selection-start-line="155" selection-start-column="2" selection-end-line="155" selection-end-column="2" />
+            <state relative-caret-position="383">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding>
                 <element signature="e#28#53#0" expanded="true" />
               </folding>
@@ -211,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetBitCoinAveragePrice.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetBitCoinMovingAverage.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala" />
       </list>
     </option>
   </component>
@@ -1109,6 +1107,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,6 +1115,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,16 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="116" column="32" lean-forward="false" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-          <folding>
-            <element signature="e#36#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/IterableLike.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -1267,10 +1257,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="155" column="2" lean-forward="false" selection-start-line="155" selection-start-column="2" selection-end-line="155" selection-end-column="2" />
+        <state relative-caret-position="383">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
             <element signature="e#28#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="117" column="23" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+          <folding>
+            <element signature="e#36#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -114,7 +114,7 @@ class BitCoinServiceImpl(implicit injector: Injector) extends BitCoinService wit
 
   private def partition(priceDetails: Seq[PriceDetails], window: Int) = {
     /*split the array for the given window */
-   val values =  priceDetails.sliding(priceDetails.size, window).toList
+   val values =  priceDetails.sliding(window, window).toList
     values.map(pd => pd.max.price.toFloat)
   }
 }
