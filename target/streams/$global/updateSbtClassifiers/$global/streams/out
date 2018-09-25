@@ -10,7 +10,6 @@
 [debug] == resolving dependencies default#test$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.17 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.17 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.17 {default=[default(compile)]}
-[debug] no default cache defined: set to /Users/sridhara.g/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.17
 [debug] 	found org.scala-sbt#sbt;0.13.17 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
@@ -24,6 +23,7 @@
 [debug] 	[2.10.7] org.scala-lang#scala-library;2.10.7
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.17->org.scala-lang#scala-library;2.10.7 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.17->org.scala-lang#scala-library;2.10.7 [compile->compile]
+[debug] no default cache defined: set to /Users/sridhara.g/.ivy2/cache
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.17->org.scala-lang#scala-library;2.10.7 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.17->org.scala-sbt#main;0.13.17 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
@@ -1779,9 +1779,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.17!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 841ms :: artifacts dl 43ms
+[debug] :: resolution report :: resolve 1138ms :: artifacts dl 52ms
 [debug] 	report for default#test$sbt_2.10;1.0 default produced in /Users/sridhara.g/codebase/Test/target/scala-2.11/resolution-cache/reports/default-test$sbt_2.10-default.xml
-[debug] 	resolve done (841ms resolve - 43ms download)
+[debug] 	resolve done (1138ms resolve - 52ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#test$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2459,6 +2459,6 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.17!compiler-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.17!persist.jar(src)
-[debug] :: resolution report :: resolve 348ms :: artifacts dl 55ms
+[debug] :: resolution report :: resolve 293ms :: artifacts dl 52ms
 [debug] 	report for default#test$sources_2.10;1.0 default produced in /Users/sridhara.g/codebase/Test/target/scala-2.11/resolution-cache/reports/default-test$sources_2.10-default.xml
-[debug] 	resolve done (348ms resolve - 55ms download)
+[debug] 	resolve done (293ms resolve - 52ms download)

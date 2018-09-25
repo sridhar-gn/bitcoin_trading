@@ -39,6 +39,7 @@ class BitCoinServiceImpl(implicit injector: Injector) extends BitCoinService wit
 
   /*Get the average price for the from_date and to_date*/
   override def getBitCoinMovingAverage(fromDate: Timestamp, toDate: Timestamp): Future[GetBitCoinMovingAverage] = {
+    val a = getBuckets(10, fromDate, toDate)
     bitCoinClient.getBitCointPrice.map(response => {
       val days = DateUtils.getDifferenceBetweenDates(fromDate = fromDate, toDate = toDate)
       val filterPrices =  toPriceDetailsEntity(response).filter(d => d.time.getTime >= fromDate.getTime && d.time.getTime <= toDate.getTime)
@@ -94,5 +95,26 @@ class BitCoinServiceImpl(implicit injector: Injector) extends BitCoinService wit
         }
       }
     } yield transform
+
+
+  }
+
+  /**@param window
+    * @param startDate
+    * @param endDate*/
+  private def getPriceDetailsBuckets(window: Int, startDate: Timestamp, endDate: Timestamp) = {
+    bitCoinClient.getBitCointPrice.map(response => {
+     val priceDetailsInTimeRange =  toPriceDetailsEntity(response).filter(r => r.time.getTime >= startDate.getTime &&
+      r.time.getTime <= endDate.getTime)
+      partition(priceDetailsInTimeRange, window)
+
+    })
+  }
+
+
+  private def partition(priceDetails: Seq[PriceDetails], window: Int) = {
+    /*split the array for the given window */
+   val values =  priceDetails.sliding(priceDetails.size, window).toList
+    values.map(pd => priceDetails.max.price.toFloat)
   }
 }
