@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99bf152d-a17c-467a-9bba-f3162f21d93a" name="Default" comment="" />
+    <list default="true" id="99bf152d-a17c-467a-9bba-f3162f21d93a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBuckets$1$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBuckets$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$BitCoinUrl$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$BitCoinUrl$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$DateConstants$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$DateConstants$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$TradingConstants$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants$TradingConstants$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/constants/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/controller/BitCoinController.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/controller/BitCoinController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinService.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getBitCoinMovingAverage$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl$$anonfun$getTradingDecision$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/test/tookitaki/service/BitCoinServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -58,22 +85,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetBitCoinMovingAverage.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetBitCoinMovingAverage.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BitCoinController.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="e#39#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,21 +100,11 @@
       <file leaf-file-name="BitCoinServiceImpl.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="117" column="23" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+            <state relative-caret-position="-146">
+              <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding>
                 <element signature="e#36#61#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IterableLike.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/IterableLike.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="202" column="6" lean-forward="false" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,23 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitCoinProtocol.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/protocol/BitCoinProtocol.scala">
+      <file leaf-file-name="Constants.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="133">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitCoinSpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala">
+      <file leaf-file-name="BitCoinService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
               <folding>
-                <element signature="e#28#53#0" expanded="true" />
+                <element signature="e#36#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,13 +190,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BaseController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/TradingConstants.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/utils/DateUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/BitCoinResponse.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/test/scala/com/test/tookitaki/MovingAverageSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/utils/CurrencyFormat.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/client/BitCoinClientImpl.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/trading/TradingImpl.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/trading/TradingClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/http/HttpClientImpl.scala" />
@@ -207,9 +214,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/protocol/BitCoinProtocol.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetTradingDecisions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetBitCoinAveragePrice.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/response/GetBitCoinMovingAverage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala" />
       </list>
     </option>
@@ -293,36 +302,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tookitaki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -394,7 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -871,7 +850,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5032467" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31641287" sideWeight="0.49675325" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31641287" sideWeight="0.49675325" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6260575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -950,7 +929,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#39#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/utils/DateUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -1053,14 +1027,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/utils/CurrencyFormat.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/MovingAverageSpec.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/trading/TradingImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1200,14 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1236,14 +1194,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        <state relative-caret-position="383">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#560#619#0" expanded="false" />
+            <element signature="e#28#53#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/constants/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,20 +1220,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/test/tookitaki/BitCoinSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/controller/BitCoinController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="29" />
           <folding>
-            <element signature="e#28#53#0" expanded="true" />
+            <element signature="e#39#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#560#619#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="e#36#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/tookitaki/service/BitCoinServiceImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="117" column="23" lean-forward="false" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        <state relative-caret-position="-146">
+          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding>
             <element signature="e#36#61#0" expanded="true" />
           </folding>

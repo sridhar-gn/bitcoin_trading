@@ -12,7 +12,7 @@ import scaldi.{Injectable, Injector}
   * Created by sridhara.g on 9/16/18.
   */
 class BitCoinController(implicit val injector : Injector) extends
-   BitCoinProtocol with Injectable with BaseController with DateProtocol {
+  BitCoinProtocol with Injectable with BaseController with DateProtocol {
 
   val bitCoinService: BitCoinService = inject[BitCoinService]
   val route: Route = path(Prefix) {
@@ -39,6 +39,16 @@ class BitCoinController(implicit val injector : Injector) extends
       val f = bitCoinService.getTradingDecision
       onSuccess(f) { resp =>
         complete(resp)
+      }
+    }
+  } ~path(Prefix / "max_price") {
+    get {
+      parameter('from_date.as[Timestamp], 'to_date.as[Timestamp]) { (fromDate, toDate) => {
+        val f = bitCoinService.getMaxPrice(fromDate, toDate)
+        onSuccess(f) { resp =>
+          complete(resp)
+        }
+      }
       }
     }
   }

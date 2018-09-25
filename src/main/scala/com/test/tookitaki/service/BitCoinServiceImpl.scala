@@ -39,7 +39,6 @@ class BitCoinServiceImpl(implicit injector: Injector) extends BitCoinService wit
 
   /*Get the average price for the from_date and to_date*/
   override def getBitCoinMovingAverage(fromDate: Timestamp, toDate: Timestamp): Future[GetBitCoinMovingAverage] = {
-    val a = getBuckets(10, fromDate, toDate)
     bitCoinClient.getBitCointPrice.map(response => {
       val days = DateUtils.getDifferenceBetweenDates(fromDate = fromDate, toDate = toDate)
       val filterPrices =  toPriceDetailsEntity(response).filter(d => d.time.getTime >= fromDate.getTime && d.time.getTime <= toDate.getTime)
@@ -96,25 +95,26 @@ class BitCoinServiceImpl(implicit injector: Injector) extends BitCoinService wit
       }
     } yield transform
 
-
   }
 
-  /**@param window
-    * @param startDate
-    * @param endDate*/
-  private def getPriceDetailsBuckets(window: Int, startDate: Timestamp, endDate: Timestamp) = {
-    bitCoinClient.getBitCointPrice.map(response => {
-     val priceDetailsInTimeRange =  toPriceDetailsEntity(response).filter(r => r.time.getTime >= startDate.getTime &&
-      r.time.getTime <= endDate.getTime)
-      partition(priceDetailsInTimeRange, window)
-
+  /** partition the array into n buckets
+    * @return max price of the each bucket*/
+  private def partition(priceDetails: Seq[PriceDetails], window: Int): Seq[PriceDetails] = {
+    /*split the array for the given window */
+   val values =  priceDetails.sliding(window, window).toList
+    values.map(pd => {
+      pd.maxBy(_.price.toFloat)
     })
   }
 
-
-  private def partition(priceDetails: Seq[PriceDetails], window: Int) = {
-    /*split the array for the given window */
-   val values =  priceDetails.sliding(window, window).toList
-    values.map(pd => pd.max.price.toFloat)
+  /**
+    * @param startDate
+    * @param endDate*/
+  override def getMaxPrice(startDate: Timestamp, endDate: Timestamp): Future[Seq[PriceDetails]] = {
+    bitCoinClient.getBitCointPrice.map(response => {
+      val priceDetailsInTimeRange =  toPriceDetailsEntity(response).filter(r => r.time.getTime >= startDate.getTime &&
+        r.time.getTime <= endDate.getTime)
+     partition(priceDetailsInTimeRange, Constants.Window)
+    })
   }
 }

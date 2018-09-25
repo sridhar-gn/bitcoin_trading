@@ -2,7 +2,7 @@ package com.test.tookitaki.service
 
 import java.sql.Timestamp
 
-import com.test.tookitaki.response.{GetBitCoinMovingAverage, GetBitCoinResponse, GetTradingDecisions}
+import com.test.tookitaki.response.{GetBitCoinMovingAverage, GetBitCoinResponse, GetTradingDecisions, PriceDetails}
 
 import scala.concurrent.Future
 
@@ -26,4 +26,6 @@ trait BitCoinService {
     * Giving the trading decisions to the end user
     * @return decisions like SELL, BUY or HOLD*/
   def getTradingDecision: Future[GetTradingDecisions]
+
+  def getMaxPrice(startdate: Timestamp, endDate: Timestamp): Future[Seq[PriceDetails]]
 }

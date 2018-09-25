@@ -5,6 +5,8 @@ package com.test.tookitaki.constants
   */
 object Constants {
 
+  val Window = 10
+
   object DateConstants {
     val Before: Int = -1
 
